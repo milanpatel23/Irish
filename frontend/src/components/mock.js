@@ -155,25 +155,61 @@ export const mockData = {
       id: 1,
       name: "Michael O'Connor",
       position: "Chief Technology Officer",
+      bio: "Michael brings over 15 years of experience in enterprise technology leadership. He specializes in digital transformation strategies and has successfully led technology initiatives for Fortune 500 companies across multiple industries.",
+      expertise: ["Digital Strategy", "Enterprise Architecture", "Technology Leadership", "Innovation Management"],
+      education: "M.S. Computer Science, Trinity College Dublin",
+      certifications: ["AWS Solutions Architect", "TOGAF Certified", "PMP"],
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
     },
     {
       id: 2,
       name: "Sarah Murphy",
-      position: "Lead Consultant",
+      position: "Lead IT Consultant",
+      bio: "Sarah is a seasoned IT consultant with 12+ years of experience helping organizations optimize their technology infrastructure. She specializes in cloud migrations and business process optimization.",
+      expertise: ["IT Strategy", "Cloud Migration", "Process Optimization", "Project Management"],
+      education: "B.S. Information Technology, University College Dublin",
+      certifications: ["Microsoft Azure Expert", "ITIL Expert", "Scrum Master"],
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face"
     },
     {
       id: 3,
       name: "David Kelly",
-      position: "Security Specialist",
+      position: "Cybersecurity Specialist",
+      bio: "David is a certified cybersecurity expert with extensive experience in threat assessment and security implementation. He has protected organizations from sophisticated cyber attacks and ensures compliance with international security standards.",
+      expertise: ["Penetration Testing", "Security Architecture", "Compliance", "Incident Response"],
+      education: "M.S. Cybersecurity, Dublin Institute of Technology",
+      certifications: ["CISSP", "CEH", "CISM", "ISO 27001 Lead Auditor"],
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
     },
     {
       id: 4,
       name: "Emma Walsh",
-      position: "Cloud Architect",
+      position: "Cloud Solutions Architect",
+      bio: "Emma is a cloud architecture expert specializing in multi-cloud and hybrid cloud solutions. She has designed and implemented scalable cloud infrastructures for businesses ranging from startups to large enterprises.",
+      expertise: ["Cloud Architecture", "DevOps", "Infrastructure as Code", "Container Orchestration"],
+      education: "B.S. Software Engineering, National University of Ireland",
+      certifications: ["AWS Solutions Architect Professional", "Google Cloud Architect", "Kubernetes Certified"],
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+    },
+    {
+      id: 5,
+      name: "James Ryan",
+      position: "Software Development Manager",
+      bio: "James leads our software development team with 10+ years of experience in full-stack development. He specializes in building scalable web applications and mobile solutions using modern technologies.",
+      expertise: ["Full-Stack Development", "Mobile Apps", "API Design", "Agile Methodologies"],
+      education: "B.S. Computer Science, University of Limerick",
+      certifications: ["MongoDB Certified", "React Certified", "Scrum Product Owner"],
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face"
+    },
+    {
+      id: 6,
+      name: "Lisa O'Brien",
+      position: "Data Analytics Specialist",
+      bio: "Lisa is our data analytics expert who helps organizations unlock insights from their data. She specializes in business intelligence, machine learning implementations, and data-driven decision making.",
+      expertise: ["Data Analytics", "Business Intelligence", "Machine Learning", "Data Visualization"],
+      education: "M.S. Data Science, University College Cork",
+      certifications: ["Tableau Certified", "Power BI Expert", "Google Analytics Certified"],
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face"
     }
   ],
 
