@@ -66,6 +66,11 @@ export const Blog = () => {
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
                   {formatDate(post.date)}
                 </div>
+
+                {/* Read Time Badge */}
+                <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm text-gray-700 px-3 py-1 rounded-full text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  {post.readTime}
+                </div>
               </div>
               
               {/* Blog Content */}
@@ -78,6 +83,15 @@ export const Blog = () => {
                   <p className="text-gray-600 leading-relaxed line-clamp-3">
                     {post.excerpt}
                   </p>
+
+                  {/* Tags */}
+                  <div className="flex flex-wrap gap-2">
+                    {post.tags && post.tags.slice(0, 3).map((tag, index) => (
+                      <span key={index} className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-md">
+                        #{tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
                 
                 {/* Meta Info */}
@@ -85,7 +99,7 @@ export const Blog = () => {
                   <div className="flex items-center space-x-4 text-sm text-gray-500">
                     <div className="flex items-center space-x-1">
                       <User className="w-4 h-4" />
-                      <span>Irish Tech Team</span>
+                      <span>{post.author}</span>
                     </div>
                     <div className="flex items-center space-x-1">
                       <Calendar className="w-4 h-4" />
