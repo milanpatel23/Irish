@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Button } from './ui/button';
-import { ArrowRight, ExternalLink } from 'lucide-react';
+import { ArrowRight, ExternalLink, CheckCircle } from 'lucide-react';
 import { mockData } from './mock';
 
 export const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   
-  const categories = ['All', 'Cloud Solutions', 'Cybersecurity', 'Software Development', 'Digital Transformation'];
+  const categories = ['All', 'Cloud Solutions', 'Cybersecurity', 'Software Development', 'Digital Transformation', 'IoT Solutions'];
   
   const filteredProjects = selectedCategory === 'All' 
     ? mockData.portfolio 
