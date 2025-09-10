@@ -48,6 +48,29 @@ export const About = () => {
               ))}
             </div>
 
+            {/* Mission & Vision */}
+            <div className="bg-gradient-to-r from-orange-50 to-gray-50 rounded-2xl p-8 space-y-6">
+              <div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3 flex items-center">
+                  <Zap className="w-5 h-5 text-orange-600 mr-2" />
+                  Our Mission
+                </h4>
+                <p className="text-gray-700 leading-relaxed">
+                  {mockData.about.mission}
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3 flex items-center">
+                  <Shield className="w-5 h-5 text-orange-600 mr-2" />
+                  Our Vision
+                </h4>
+                <p className="text-gray-700 leading-relaxed">
+                  {mockData.about.vision}
+                </p>
+              </div>
+            </div>
+
             {/* CTA Button */}
             <div className="pt-4">
               <Button 
