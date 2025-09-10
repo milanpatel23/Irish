@@ -5,6 +5,8 @@ import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Instagram, ArrowUp } 
 import { mockData } from './mock';
 
 export const Footer = () => {
+  const navigate = useNavigate();
+  
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
