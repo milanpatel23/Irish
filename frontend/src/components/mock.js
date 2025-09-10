@@ -25,17 +25,35 @@ export const mockData = {
   about: {
     title: "Shaping Tomorrow's Technology Landscape",
     subtitle: "Excellence in Innovation",
-    description: "Our team at Irish Technologies Inc. empowers businesses with innovative IT solutions, creating long-term success through tailored technology strategies.",
+    description: "Our team at Irish Technologies Inc. empowers businesses with innovative IT solutions, creating long-term success through tailored technology strategies. Founded with a vision to bridge the gap between cutting-edge technology and business growth, we specialize in delivering comprehensive IT services that drive digital transformation across industries.",
+    mission: "To empower businesses worldwide with innovative technology solutions that drive growth, efficiency, and competitive advantage in the digital age.",
+    vision: "To be the leading global provider of transformative IT services, recognized for excellence, innovation, and unwavering commitment to client success.",
+    values: [
+      "Innovation: Embracing cutting-edge technologies to deliver breakthrough solutions",
+      "Excellence: Maintaining the highest standards in everything we do",
+      "Integrity: Building trust through transparent and ethical business practices",
+      "Partnership: Collaborating closely with clients to achieve shared success"
+    ],
     features: [
-      "Fast & Reliable IT Solutions",
-      "Industry-Specific Technology Expertise", 
-      "Proven Digital Transformation Strategies"
+      "24/7 Technical Support & Monitoring",
+      "Industry-Leading Security Protocols", 
+      "Agile Project Management Methodology",
+      "Certified Technology Professionals",
+      "Scalable Enterprise Solutions",
+      "Cost-Effective Implementation Strategies"
     ],
     stats: [
       { number: "150+", label: "Projects Completed" },
       { number: "98%", label: "Client Satisfaction" },
       { number: "50+", label: "Enterprise Clients" },
       { number: "15+", label: "Technology Experts" }
+    ],
+    achievements: [
+      "ISO 27001 Certified for Information Security",
+      "Microsoft Gold Partner Status",
+      "AWS Advanced Consulting Partner",
+      "Winner: Best IT Services Company 2024",
+      "5-Star Customer Service Rating"
     ]
   },
 
