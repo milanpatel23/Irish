@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
-import { ArrowRight, Linkedin, Mail, Users } from 'lucide-react';
+import { ArrowRight, Linkedin, Mail, Users, CheckCircle } from 'lucide-react';
 import { mockData } from './mock';
 
 export const Team = () => {
