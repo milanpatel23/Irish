@@ -60,39 +60,93 @@ export const mockData = {
   services: [
     {
       id: 1,
-      title: "IT Consulting",
-      description: "Strategic technology consulting to optimize your business operations and drive growth.",
-      icon: "Settings"
+      title: "IT Consulting & Strategy",
+      description: "Strategic technology consulting to optimize your business operations and drive growth. Our expert consultants analyze your current infrastructure, identify opportunities, and develop comprehensive IT roadmaps aligned with your business objectives.",
+      icon: "Settings",
+      features: [
+        "Technology Assessment & Audit",
+        "Strategic IT Planning & Roadmapping",
+        "Digital Transformation Strategy",
+        "Vendor Management & Procurement",
+        "IT Governance & Compliance",
+        "Cost Optimization Analysis"
+      ],
+      benefits: "Reduce IT costs by 30%, improve operational efficiency, and align technology with business goals."
     },
     {
       id: 2,
-      title: "Cloud Solutions",
-      description: "Seamless cloud migration and management services for scalable business solutions.",
-      icon: "Cloud"
+      title: "Cloud Solutions & Migration",
+      description: "Seamless cloud migration and management services for scalable business solutions. We help organizations transition to cloud platforms while ensuring security, performance, and cost-effectiveness throughout the migration process.",
+      icon: "Cloud",
+      features: [
+        "Cloud Strategy & Architecture",
+        "Multi-Cloud & Hybrid Solutions",
+        "Migration Planning & Execution",
+        "Cloud Security Implementation",
+        "DevOps & Automation",
+        "Performance Monitoring & Optimization"
+      ],
+      benefits: "Scale resources on-demand, reduce infrastructure costs by 40%, and improve business agility."
     },
     {
       id: 3,
-      title: "Cybersecurity",
-      description: "Comprehensive security solutions to protect your digital assets and data.",
-      icon: "Shield"
+      title: "Cybersecurity & Compliance",
+      description: "Comprehensive security solutions to protect your digital assets and data. Our cybersecurity experts implement robust defense mechanisms, conduct security assessments, and ensure compliance with industry regulations.",
+      icon: "Shield",
+      features: [
+        "Security Risk Assessment",
+        "Penetration Testing & Vulnerability Scanning",
+        "Identity & Access Management",
+        "Security Incident Response",
+        "Compliance Management (GDPR, HIPAA, SOX)",
+        "Security Awareness Training"
+      ],
+      benefits: "Protect against 99.9% of cyber threats, ensure regulatory compliance, and maintain business continuity."
     },
     {
       id: 4,
-      title: "Software Development",
-      description: "Custom software solutions tailored to meet your specific business requirements.",
-      icon: "Code"
+      title: "Custom Software Development",
+      description: "Custom software solutions tailored to meet your specific business requirements. Our development team creates scalable, secure, and user-friendly applications using modern technologies and agile methodologies.",
+      icon: "Code",
+      features: [
+        "Web & Mobile Application Development",
+        "API Development & Integration",
+        "Database Design & Optimization",
+        "Legacy System Modernization",
+        "Quality Assurance & Testing",
+        "Maintenance & Support"
+      ],
+      benefits: "Increase productivity by 50%, automate manual processes, and gain competitive advantage."
     },
     {
       id: 5,
       title: "Digital Transformation",
-      description: "End-to-end digital transformation to modernize your business processes.",
-      icon: "Zap"
+      description: "End-to-end digital transformation to modernize your business processes. We help organizations leverage technology to improve customer experience, streamline operations, and create new revenue streams.",
+      icon: "Zap",
+      features: [
+        "Process Automation & Optimization",
+        "Customer Experience Enhancement",
+        "Data Analytics & Business Intelligence",
+        "IoT Implementation",
+        "AI/ML Integration",
+        "Change Management & Training"
+      ],
+      benefits: "Improve customer satisfaction by 60%, reduce operational costs, and accelerate time-to-market."
     },
     {
       id: 6,
-      title: "Infrastructure Management",
-      description: "Reliable IT infrastructure management and support for optimal performance.",
-      icon: "Server"
+      title: "IT Infrastructure Management",
+      description: "Reliable IT infrastructure management and support for optimal performance. Our infrastructure experts ensure your systems run smoothly, securely, and efficiently while minimizing downtime and maximizing productivity.",
+      icon: "Server",
+      features: [
+        "Network Design & Implementation",
+        "Server Management & Virtualization",
+        "Backup & Disaster Recovery",
+        "24/7 Monitoring & Support",
+        "Performance Optimization",
+        "Capacity Planning & Scaling"
+      ],
+      benefits: "Achieve 99.9% uptime, reduce IT support costs by 35%, and ensure business continuity."
     }
   ],
 
