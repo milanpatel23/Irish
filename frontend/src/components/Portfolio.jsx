@@ -5,6 +5,7 @@ import { ArrowRight, ExternalLink, CheckCircle } from 'lucide-react';
 import { mockData } from './mock';
 
 export const Portfolio = () => {
+  const navigate = useNavigate();
   const [selectedCategory, setSelectedCategory] = useState('All');
   
   const categories = ['All', 'Cloud Solutions', 'Cybersecurity', 'Software Development', 'Digital Transformation', 'IoT Solutions'];
