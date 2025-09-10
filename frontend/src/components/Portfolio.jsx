@@ -78,6 +78,11 @@ export const Portfolio = () => {
                   {project.category}
                 </div>
                 
+                {/* Duration Badge */}
+                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
+                  {project.duration}
+                </div>
+                
                 {/* Hover CTA */}
                 <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow duration-200">
@@ -88,15 +93,62 @@ export const Portfolio = () => {
               
               {/* Project Content */}
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors duration-300">
-                  {project.title}
-                </h3>
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-2xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300">
+                      {project.client}
+                    </h3>
+                    <span className="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                      {project.industry}
+                    </span>
+                  </div>
+                  
+                  <h4 className="text-lg font-semibold text-orange-600">
+                    {project.title}
+                  </h4>
+                  
+                  <p className="text-gray-600 leading-relaxed">
+                    {project.description}
+                  </p>
+
+                  {/* Project Details */}
+                  <div className="grid grid-cols-2 gap-4 py-4 border-t border-gray-100">
+                    <div>
+                      <span className="text-sm font-medium text-gray-500">Team Size:</span>
+                      <p className="text-sm text-gray-900">{project.teamSize}</p>
+                    </div>
+                    <div>
+                      <span className="text-sm font-medium text-gray-500">Duration:</span>
+                      <p className="text-sm text-gray-900">{project.duration}</p>
+                    </div>
+                  </div>
+
+                  {/* Key Results */}
+                  <div className="space-y-2">
+                    <h5 className="text-sm font-semibold text-gray-900 uppercase tracking-wide">
+                      Key Results:
+                    </h5>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      {project.results && project.results.slice(0, 2).map((result, index) => (
+                        <li key={index} className="flex items-center">
+                          <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
+                          {result}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {/* Technologies */}
+                  <div className="flex flex-wrap gap-2 pt-4">
+                    {project.technologies && project.technologies.slice(0, 4).map((tech, index) => (
+                      <span key={index} className="px-2 py-1 bg-orange-100 text-orange-700 text-xs rounded-md font-medium">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
                 
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  {project.description}
-                </p>
-                
-                <div className="flex items-center text-orange-600 font-medium group-hover:text-orange-700 transition-colors duration-300">
+                <div className="flex items-center text-orange-600 font-medium group-hover:text-orange-700 transition-colors duration-300 mt-6">
                   <span>View Case Study</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                 </div>
