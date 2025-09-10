@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from './ui/button';
 import { ArrowRight, Settings, Cloud, Shield, Code, Zap, Server } from 'lucide-react';
 import { mockData } from './mock';
