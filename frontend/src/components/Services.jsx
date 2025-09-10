@@ -67,6 +67,30 @@ export const Services = () => {
                     <p className="text-gray-600 leading-relaxed">
                       {service.description}
                     </p>
+
+                    {/* Key Features */}
+                    <div className="space-y-2">
+                      <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wide">
+                        Key Features:
+                      </h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        {service.features && service.features.slice(0, 3).map((feature, index) => (
+                          <li key={index} className="flex items-center">
+                            <span className="w-1.5 h-1.5 bg-orange-500 rounded-full mr-2 flex-shrink-0"></span>
+                            {feature}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* Benefits */}
+                    {service.benefits && (
+                      <div className="bg-orange-50 rounded-lg p-4">
+                        <p className="text-sm text-orange-800 font-medium">
+                          <strong>Impact:</strong> {service.benefits}
+                        </p>
+                      </div>
+                    )}
                   </div>
                   
                   {/* CTA */}
