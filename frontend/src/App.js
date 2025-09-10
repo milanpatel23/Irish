@@ -12,6 +12,14 @@ import { Blog } from "./components/Blog";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
+// Import new pages
+import { ServiceDetail } from "./pages/ServiceDetail";
+import { CaseStudyDetail } from "./pages/CaseStudyDetail";
+import { PrivacyPolicy } from "./pages/PrivacyPolicy";
+import { TermsOfService } from "./pages/TermsOfService";
+import { CookiePolicy } from "./pages/CookiePolicy";
+import { Sitemap } from "./pages/Sitemap";
+
 const Home = () => {
   return (
     <div className="min-h-screen bg-white">
@@ -34,9 +42,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/service/:serviceId" element={<ServiceDetail />} />
+          <Route path="/case-study/:caseId" element={<CaseStudyDetail />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/cookie-policy" element={<CookiePolicy />} />
+          <Route path="/sitemap" element={<Sitemap />} />
         </Routes>
       </BrowserRouter>
     </div>
