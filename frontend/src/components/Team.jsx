@@ -33,7 +33,7 @@ export const Team = () => {
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {mockData.team.map((member) => (
             <div 
               key={member.id} 
@@ -63,19 +63,56 @@ export const Team = () => {
               </div>
               
               {/* Member Info */}
-              <div className="space-y-3">
-                <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300">
-                  {member.name}
-                </h3>
-                
-                <p className="text-orange-600 font-medium">
-                  {member.position}
-                </p>
-                
-                <div className="pt-2 border-t border-gray-100">
-                  <p className="text-sm text-gray-600">
-                    Expert in delivering innovative IT solutions
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-300">
+                    {member.name}
+                  </h3>
+                  
+                  <p className="text-orange-600 font-medium">
+                    {member.position}
                   </p>
+                </div>
+                
+                {/* Bio */}
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  {member.bio}
+                </p>
+
+                {/* Education & Certifications */}
+                <div className="text-left space-y-3 pt-4 border-t border-gray-100">
+                  <div>
+                    <h4 className="text-xs font-semibold text-gray-900 uppercase tracking-wide mb-1">
+                      Education
+                    </h4>
+                    <p className="text-sm text-gray-600">{member.education}</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-xs font-semibold text-gray-900 uppercase tracking-wide mb-1">
+                      Key Expertise
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {member.expertise && member.expertise.slice(0, 3).map((skill, index) => (
+                        <span key={index} className="px-2 py-1 bg-orange-100 text-orange-700 text-xs rounded-md font-medium">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xs font-semibold text-gray-900 uppercase tracking-wide mb-1">
+                      Certifications
+                    </h4>
+                    <div className="flex flex-wrap gap-1">
+                      {member.certifications && member.certifications.slice(0, 2).map((cert, index) => (
+                        <span key={index} className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-md">
+                          {cert}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
