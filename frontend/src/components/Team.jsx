@@ -121,7 +121,7 @@ export const Team = () => {
 
         {/* Team Stats */}
         <div className="bg-gradient-to-r from-gray-50 to-orange-50 rounded-2xl p-12">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center mb-8">
             <div>
               <div className="text-4xl font-bold text-gray-900 mb-2">15+</div>
               <div className="text-gray-600 font-medium">Technology Experts</div>
@@ -137,6 +137,21 @@ export const Team = () => {
             <div>
               <div className="text-4xl font-bold text-gray-900 mb-2">24/7</div>
               <div className="text-gray-600 font-medium">Support Available</div>
+            </div>
+          </div>
+
+          {/* Core Values */}
+          <div className="border-t border-gray-200 pt-8">
+            <h4 className="text-2xl font-bold text-gray-900 mb-6 text-center">Our Core Values</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {mockData.about.values && mockData.about.values.map((value, index) => (
+                <div key={index} className="flex items-start space-x-3">
+                  <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <CheckCircle className="w-4 h-4 text-white" />
+                  </div>
+                  <p className="text-gray-700 leading-relaxed">{value}</p>
+                </div>
+              ))}
             </div>
           </div>
           
