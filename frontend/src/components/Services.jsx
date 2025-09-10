@@ -14,6 +14,8 @@ const iconMap = {
 };
 
 export const Services = () => {
+  const navigate = useNavigate();
+  
   const scrollToSection = (href) => {
     const element = document.querySelector(href);
     if (element) {
