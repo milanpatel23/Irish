@@ -194,18 +194,30 @@ export const Footer = () => {
             </div>
             
             <div className="flex flex-wrap justify-center md:justify-end space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors duration-200">
+              <button 
+                onClick={() => navigate('/privacy-policy')}
+                className="text-gray-400 hover:text-orange-400 transition-colors duration-200"
+              >
                 Privacy Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors duration-200">
+              </button>
+              <button 
+                onClick={() => navigate('/terms-of-service')}
+                className="text-gray-400 hover:text-orange-400 transition-colors duration-200"
+              >
                 Terms of Service
-              </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors duration-200">
+              </button>
+              <button 
+                onClick={() => navigate('/cookie-policy')}
+                className="text-gray-400 hover:text-orange-400 transition-colors duration-200"
+              >
                 Cookie Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors duration-200">
+              </button>
+              <button 
+                onClick={() => navigate('/sitemap')}
+                className="text-gray-400 hover:text-orange-400 transition-colors duration-200"
+              >
                 Sitemap
-              </a>
+              </button>
             </div>
           </div>
         </div>
