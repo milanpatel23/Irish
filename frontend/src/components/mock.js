@@ -355,26 +355,74 @@ export const mockData = {
     {
       id: 1,
       title: "Top IT Trends Shaping 2025: What Businesses Need to Know",
-      excerpt: "Explore the latest technology trends that will define business strategies in 2025.",
+      excerpt: "Explore the latest technology trends that will define business strategies in 2025, including AI integration, quantum computing, and sustainable IT practices. Discover how these trends will impact your industry and what steps you should take to stay competitive.",
+      content: "As we advance through 2025, the technology landscape continues to evolve at an unprecedented pace. Artificial Intelligence has moved beyond experimental phases into practical business applications, with 78% of enterprises now leveraging AI for operational efficiency. Edge computing is revolutionizing data processing, bringing computation closer to data sources and reducing latency by up to 60%. Meanwhile, quantum computing is beginning to show real-world applications in cryptography and complex problem-solving. Sustainable IT practices are no longer optional, with green computing initiatives becoming essential for regulatory compliance and corporate responsibility.",
       category: "Technology Trends",
+      author: "Michael O'Connor",
+      readTime: "8 min read",
+      tags: ["AI", "Quantum Computing", "Sustainability", "Future Tech"],
       date: "2025-01-15",
       image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
     },
     {
       id: 2,
       title: "Cybersecurity Best Practices for Small and Medium Businesses",
-      excerpt: "Essential security measures every SMB should implement to protect their digital assets.",
+      excerpt: "Essential security measures every SMB should implement to protect their digital assets. Learn about the most common threats facing businesses today and practical steps to build a robust security posture without breaking the budget.",
+      content: "Small and medium businesses face unique cybersecurity challenges, often lacking the resources of larger enterprises while remaining attractive targets for cybercriminals. Recent data shows that 60% of small businesses that suffer a cyber attack go out of business within six months. This comprehensive guide covers essential security measures including multi-factor authentication, employee training programs, regular security audits, and incident response planning. We also explore cost-effective security solutions and how to build a security-first culture within your organization.",
       category: "Cybersecurity",
+      author: "David Kelly",
+      readTime: "12 min read",
+      tags: ["Security", "SMB", "Risk Management", "Best Practices"],
       date: "2025-01-10",
       image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=300&fit=crop"
     },
     {
       id: 3,
       title: "Cloud Migration Strategy: A Complete Guide for Enterprises",
-      excerpt: "Step-by-step approach to successful cloud migration with minimal disruption.",
+      excerpt: "Step-by-step approach to successful cloud migration with minimal disruption. Discover proven methodologies, common pitfalls to avoid, and how to maximize ROI from your cloud investment while ensuring security and compliance.",
+      content: "Enterprise cloud migration requires careful planning and execution to avoid costly mistakes and service disruptions. This comprehensive guide outlines our proven 6-phase migration methodology, from initial assessment to post-migration optimization. We cover critical considerations including workload prioritization, data migration strategies, security implementation, and change management. Real-world case studies demonstrate how organizations have achieved up to 40% cost savings and improved operational efficiency through strategic cloud adoption.",
       category: "Cloud Solutions",
+      author: "Emma Walsh",
+      readTime: "15 min read",
+      tags: ["Cloud Migration", "Strategy", "Enterprise", "Digital Transformation"],
       date: "2025-01-05",
       image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop"
+    },
+    {
+      id: 4,
+      title: "The Rise of Edge Computing: Transforming Data Processing",
+      excerpt: "Understanding edge computing's impact on modern business operations and why it's becoming essential for real-time applications. Explore use cases, benefits, and implementation strategies for edge computing solutions.",
+      content: "Edge computing is revolutionizing how organizations process and analyze data by bringing computation closer to data sources. This paradigm shift reduces latency, improves performance, and enables real-time decision-making for IoT applications, autonomous systems, and mobile computing. Learn about the key drivers behind edge computing adoption, including 5G networks, IoT proliferation, and the need for real-time analytics. We examine successful implementations across industries and provide guidance on developing an edge computing strategy.",
+      category: "Technology Trends",
+      author: "Sarah Murphy",
+      readTime: "10 min read",
+      tags: ["Edge Computing", "IoT", "Real-time Analytics", "5G"],
+      date: "2024-12-28",
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop"
+    },
+    {
+      id: 5,
+      title: "Digital Transformation ROI: Measuring Success Beyond Cost Savings",
+      excerpt: "How to effectively measure the return on investment for digital transformation initiatives. Discover key metrics, measurement frameworks, and strategies for demonstrating value to stakeholders.",
+      content: "Measuring digital transformation ROI requires a comprehensive approach that goes beyond simple cost calculations. Organizations must consider both quantitative metrics such as operational efficiency gains and qualitative benefits like improved customer experience and employee satisfaction. This article presents a framework for establishing baseline measurements, defining success criteria, and tracking progress throughout the transformation journey. We include real examples of how companies have measured and communicated their transformation success.",
+      category: "Digital Transformation",
+      author: "Lisa O'Brien",
+      readTime: "11 min read",
+      tags: ["ROI", "Digital Transformation", "Metrics", "Business Value"],
+      date: "2024-12-20",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop"
+    },
+    {
+      id: 6,
+      title: "Building Resilient IT Infrastructure: Lessons from 2024",
+      excerpt: "Key insights and lessons learned from major IT infrastructure challenges in 2024. Discover how to build more resilient systems that can withstand disruptions and maintain business continuity.",
+      content: "The events of 2024 highlighted the critical importance of resilient IT infrastructure. From global outages to sophisticated cyber attacks, organizations learned valuable lessons about preparation, response, and recovery. This analysis examines the key infrastructure failures, their root causes, and the strategies that proved most effective in maintaining business continuity. We provide actionable recommendations for building redundancy, implementing monitoring systems, and developing comprehensive disaster recovery plans.",
+      category: "Infrastructure",
+      author: "James Ryan",
+      readTime: "9 min read",
+      tags: ["Infrastructure", "Resilience", "Business Continuity", "Disaster Recovery"],
+      date: "2024-12-15",
+      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop"
     }
   ]
 };
