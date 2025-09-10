@@ -216,31 +216,111 @@ export const mockData = {
   portfolio: [
     {
       id: 1,
-      title: "Enterprise Cloud Migration",
+      title: "Enterprise Cloud Migration - TechCorp Global",
       category: "Cloud Solutions",
-      description: "Successfully migrated 500+ employee enterprise to AWS cloud infrastructure.",
+      description: "Successfully migrated 500+ employee enterprise to AWS cloud infrastructure, resulting in 40% cost reduction and improved scalability. Implemented multi-region deployment with automated disaster recovery.",
+      client: "TechCorp Global",
+      industry: "Technology Services",
+      duration: "8 months",
+      teamSize: "12 specialists",
+      technologies: ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins"],
+      results: [
+        "40% reduction in infrastructure costs",
+        "99.9% uptime achievement",
+        "50% faster deployment cycles",
+        "Enhanced disaster recovery capabilities"
+      ],
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop"
     },
     {
       id: 2,
-      title: "Financial Services Security",
+      title: "Financial Services Security Overhaul - SecureBank",
       category: "Cybersecurity",
-      description: "Implemented comprehensive security framework for leading financial institution.",
+      description: "Implemented comprehensive security framework for leading financial institution, ensuring compliance with PCI DSS and GDPR regulations while protecting against advanced persistent threats.",
+      client: "SecureBank",
+      industry: "Financial Services",
+      duration: "12 months",
+      teamSize: "8 security experts",
+      technologies: ["SIEM", "WAF", "Multi-factor Authentication", "Encryption", "Blockchain"],
+      results: [
+        "Zero security breaches post-implementation",
+        "100% compliance with regulations",
+        "60% reduction in false positives",
+        "Enhanced fraud detection capabilities"
+      ],
       image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop"
     },
     {
       id: 3,
-      title: "Healthcare Management System",
+      title: "Healthcare Management System - MediCare Network",
       category: "Software Development",
-      description: "Developed custom patient management system for healthcare provider network.",
+      description: "Developed custom patient management system for healthcare provider network, improving patient care coordination and reducing administrative overhead by 45%.",
+      client: "MediCare Network",
+      industry: "Healthcare",
+      duration: "10 months",
+      teamSize: "15 developers",
+      technologies: ["React", "Node.js", "MongoDB", "FHIR", "HL7", "AWS"],
+      results: [
+        "45% reduction in administrative time",
+        "Improved patient satisfaction scores",
+        "HIPAA compliant architecture",
+        "Real-time patient data access"
+      ],
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop"
     },
     {
       id: 4,
-      title: "Retail Digital Transformation",
+      title: "Retail Digital Transformation - ShopSmart",
       category: "Digital Transformation",
-      description: "Complete digital overhaul including e-commerce platform and inventory management.",
+      description: "Complete digital overhaul including e-commerce platform, inventory management, and customer analytics, resulting in 300% increase in online sales and improved customer experience.",
+      client: "ShopSmart Retail Chain",
+      industry: "Retail",
+      duration: "14 months",
+      teamSize: "20 specialists",
+      technologies: ["Shopify Plus", "React Native", "AI/ML", "Google Analytics", "Salesforce"],
+      results: [
+        "300% increase in online sales",
+        "Unified omnichannel experience",
+        "Real-time inventory management",
+        "Personalized customer recommendations"
+      ],
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop"
+    },
+    {
+      id: 5,
+      title: "Manufacturing IoT Implementation - IndustrialTech",
+      category: "IoT Solutions",
+      description: "Implemented Industrial IoT solution for manufacturing company, enabling predictive maintenance and real-time production monitoring, reducing downtime by 35%.",
+      client: "IndustrialTech Manufacturing",
+      industry: "Manufacturing",
+      duration: "6 months",
+      teamSize: "10 engineers",
+      technologies: ["IoT Sensors", "Azure IoT", "Power BI", "Machine Learning", "Edge Computing"],
+      results: [
+        "35% reduction in equipment downtime",
+        "Predictive maintenance capabilities",
+        "Real-time production insights",
+        "20% improvement in efficiency"
+      ],
+      image: "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=600&h=400&fit=crop"
+    },
+    {
+      id: 6,
+      title: "Educational Platform Modernization - EduTech University",
+      category: "Software Development",
+      description: "Modernized legacy educational platform with new learning management system, supporting 50,000+ students with enhanced online learning capabilities and mobile accessibility.",
+      client: "EduTech University",
+      industry: "Education",
+      duration: "9 months",
+      teamSize: "18 developers",
+      technologies: ["Moodle", "React", "Video Streaming", "Mobile Apps", "Cloud Infrastructure"],
+      results: [
+        "Support for 50,000+ concurrent users",
+        "Mobile-first learning experience",
+        "Integrated video conferencing",
+        "95% student satisfaction rate"
+      ],
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop"
     }
   ],
 
