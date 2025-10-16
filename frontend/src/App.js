@@ -15,6 +15,7 @@ import { Footer } from "./components/Footer";
 // Import new pages
 import { ServiceDetail } from "./pages/ServiceDetail";
 import { CaseStudyDetail } from "./pages/CaseStudyDetail";
+import { BlogDetail } from "./pages/BlogDetail";
 import { PrivacyPolicy } from "./pages/PrivacyPolicy";
 import { TermsOfService } from "./pages/TermsOfService";
 import { CookiePolicy } from "./pages/CookiePolicy";
