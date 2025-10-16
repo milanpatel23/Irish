@@ -98,7 +98,11 @@ export const Services = () => {
                   
                   {/* CTA */}
                   <div 
-                    onClick={() => navigate(`/service/${service.id}`)}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      navigate(`/service/${service.id}`);
+                    }}
                     className="flex items-center text-orange-600 font-medium group-hover:text-orange-700 transition-colors duration-300 cursor-pointer"
                   >
                     <span>Learn More</span>
