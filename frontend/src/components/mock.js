@@ -424,5 +424,230 @@ export const mockData = {
       date: "2024-12-15",
       image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop"
     }
+  ],
+
+  careers: [
+    {
+      id: 1,
+      title: "Java Developer",
+      department: "Software Development",
+      location: "Dublin, Ireland / Remote",
+      type: "Full-time",
+      experience: "3-5 years",
+      salary: "€50,000 - €70,000",
+      description: "Join our dynamic development team to build scalable enterprise applications using Java and modern frameworks. You'll work on cutting-edge projects for leading clients across various industries.",
+      requirements: [
+        "Bachelor's degree in Computer Science or related field",
+        "3+ years of Java development experience",
+        "Strong knowledge of Spring Framework and Spring Boot",
+        "Experience with microservices architecture",
+        "Proficiency in SQL and database design",
+        "Knowledge of RESTful API development",
+        "Experience with version control systems (Git)",
+        "Understanding of Agile development methodologies"
+      ],
+      responsibilities: [
+        "Design and develop high-quality Java applications",
+        "Collaborate with cross-functional teams to define and implement new features",
+        "Write clean, maintainable, and efficient code",
+        "Participate in code reviews and maintain coding standards",
+        "Troubleshoot and debug applications",
+        "Stay updated with emerging technologies and industry trends"
+      ],
+      benefits: [
+        "Competitive salary with performance bonuses",
+        "Health insurance and dental coverage",
+        "Flexible working hours and remote work options",
+        "Professional development opportunities",
+        "25 days annual leave plus public holidays",
+        "Modern office environment with latest technology"
+      ],
+      postedDate: "2025-01-15"
+    },
+    {
+      id: 2,
+      title: "Data Scientist",
+      department: "Analytics & AI",
+      location: "Dublin, Ireland / Hybrid",
+      type: "Full-time",
+      experience: "2-4 years",
+      salary: "€55,000 - €75,000",
+      description: "We're looking for a passionate Data Scientist to join our analytics team. You'll work on machine learning projects, develop predictive models, and provide data-driven insights to drive business decisions.",
+      requirements: [
+        "Master's degree in Data Science, Statistics, or related field",
+        "2+ years of experience in data science or analytics",
+        "Proficiency in Python and R programming",
+        "Strong knowledge of machine learning algorithms",
+        "Experience with data visualization tools (Tableau, Power BI)",
+        "Knowledge of SQL and database management",
+        "Familiarity with cloud platforms (AWS, Azure, GCP)",
+        "Strong analytical and problem-solving skills"
+      ],
+      responsibilities: [
+        "Develop and implement machine learning models",
+        "Analyze large datasets to extract meaningful insights",
+        "Create data visualizations and reports for stakeholders",
+        "Collaborate with engineering teams to deploy models in production",
+        "Conduct A/B testing and statistical analysis",
+        "Present findings to technical and non-technical audiences"
+      ],
+      benefits: [
+        "Competitive salary with annual reviews",
+        "Comprehensive health and wellness benefits",
+        "Flexible hybrid working arrangements",
+        "Access to latest data science tools and platforms",
+        "Conference attendance and training budget",
+        "Collaborative and innovative work environment"
+      ],
+      postedDate: "2025-01-12"
+    },
+    {
+      id: 3,
+      title: "Data Engineer",
+      department: "Data Engineering",
+      location: "Dublin, Ireland / Remote",
+      type: "Full-time",
+      experience: "3-6 years",
+      salary: "€60,000 - €80,000",
+      description: "Join our data engineering team to build robust data pipelines and infrastructure. You'll work with big data technologies to support our analytics and machine learning initiatives.",
+      requirements: [
+        "Bachelor's degree in Computer Science, Engineering, or related field",
+        "3+ years of experience in data engineering",
+        "Strong programming skills in Python and/or Scala",
+        "Experience with big data technologies (Hadoop, Spark, Kafka)",
+        "Knowledge of cloud data platforms (AWS, Azure, GCP)",
+        "Proficiency in SQL and NoSQL databases",
+        "Experience with data pipeline orchestration tools",
+        "Understanding of data warehousing concepts"
+      ],
+      responsibilities: [
+        "Design and build scalable data pipelines",
+        "Implement ETL/ELT processes for data integration",
+        "Optimize data storage and retrieval systems",
+        "Ensure data quality and reliability",
+        "Collaborate with data scientists and analysts",
+        "Monitor and maintain data infrastructure"
+      ],
+      benefits: [
+        "Attractive salary with performance incentives",
+        "Comprehensive benefits package",
+        "Remote work flexibility",
+        "Professional certification support",
+        "Stock options program",
+        "Team building events and company retreats"
+      ],
+      postedDate: "2025-01-10"
+    },
+    {
+      id: 4,
+      title: "AI/ML Engineer",
+      department: "Artificial Intelligence",
+      location: "Dublin, Ireland / Hybrid",
+      type: "Full-time",
+      experience: "4-7 years",
+      salary: "€65,000 - €90,000",
+      description: "We're seeking an experienced AI/ML Engineer to develop and deploy machine learning solutions. You'll work on cutting-edge AI projects and help clients transform their businesses through intelligent automation.",
+      requirements: [
+        "Master's degree in AI, Machine Learning, or Computer Science",
+        "4+ years of experience in ML engineering",
+        "Expertise in deep learning frameworks (TensorFlow, PyTorch)",
+        "Strong programming skills in Python",
+        "Experience with MLOps and model deployment",
+        "Knowledge of computer vision and NLP techniques",
+        "Familiarity with containerization (Docker, Kubernetes)",
+        "Experience with cloud AI services"
+      ],
+      responsibilities: [
+        "Develop and train machine learning models",
+        "Design AI solutions for business problems",
+        "Deploy models to production environments",
+        "Optimize model performance and scalability",
+        "Research and implement new AI techniques",
+        "Collaborate with product and engineering teams"
+      ],
+      benefits: [
+        "Highly competitive salary and equity",
+        "Premium health insurance",
+        "Flexible working arrangements",
+        "Access to GPU clusters and AI tools",
+        "Research publication opportunities",
+        "Innovation time for personal projects"
+      ],
+      postedDate: "2025-01-08"
+    },
+    {
+      id: 5,
+      title: "Financial Analyst",
+      department: "Finance & Operations",
+      location: "Dublin, Ireland / Office",
+      type: "Full-time",
+      experience: "2-4 years",
+      salary: "€45,000 - €60,000",
+      description: "Join our finance team to support business growth through financial analysis and strategic planning. You'll work closely with leadership to drive data-driven financial decisions.",
+      requirements: [
+        "Bachelor's degree in Finance, Accounting, or Economics",
+        "2+ years of financial analysis experience",
+        "Strong proficiency in Excel and financial modeling",
+        "Knowledge of ERP systems and financial software",
+        "Understanding of financial statements and budgeting",
+        "Excellent analytical and communication skills",
+        "Professional certification (CPA, CFA) preferred",
+        "Experience in technology sector advantageous"
+      ],
+      responsibilities: [
+        "Conduct financial analysis and reporting",
+        "Support budgeting and forecasting processes",
+        "Analyze business performance and profitability",
+        "Prepare presentations for management",
+        "Assist with financial planning and strategy",
+        "Support month-end and year-end closing processes"
+      ],
+      benefits: [
+        "Competitive salary with annual bonuses",
+        "Comprehensive benefits package",
+        "Professional development support",
+        "Pension scheme with company contribution",
+        "Life and disability insurance",
+        "Employee assistance program"
+      ],
+      postedDate: "2025-01-05"
+    },
+    {
+      id: 6,
+      title: "Project Manager",
+      department: "Project Management",
+      location: "Dublin, Ireland / Hybrid",
+      type: "Full-time",
+      experience: "5-8 years",
+      salary: "€55,000 - €75,000",
+      description: "Lead complex IT projects from initiation to completion. You'll manage cross-functional teams, ensure project delivery within scope, time, and budget, while maintaining high quality standards.",
+      requirements: [
+        "Bachelor's degree in Project Management or related field",
+        "5+ years of project management experience",
+        "PMP or PRINCE2 certification required",
+        "Experience managing IT and software development projects",
+        "Strong knowledge of Agile and Scrum methodologies",
+        "Excellent leadership and communication skills",
+        "Proficiency in project management tools (Jira, MS Project)",
+        "Experience with budget management and resource allocation"
+      ],
+      responsibilities: [
+        "Lead end-to-end project delivery",
+        "Manage project scope, timeline, and budget",
+        "Coordinate cross-functional project teams",
+        "Identify and mitigate project risks",
+        "Communicate project status to stakeholders",
+        "Ensure quality deliverables and client satisfaction"
+      ],
+      benefits: [
+        "Excellent salary with performance bonuses",
+        "Leadership development programs",
+        "Flexible hybrid working model",
+        "Professional certification support",
+        "Private health insurance",
+        "Career progression opportunities"
+      ],
+      postedDate: "2025-01-03"
+    }
   ]
 };
