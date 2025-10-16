@@ -42,6 +42,15 @@ export const Sitemap = () => {
       }))
     },
     {
+      category: 'Blog Detail Pages',
+      icon: BookOpen,
+      pages: mockData.blog.map(post => ({
+        name: post.title,
+        path: `/blog/${post.id}`,
+        description: post.excerpt.substring(0, 100) + '...'
+      }))
+    },
+    {
       category: 'Legal Pages',
       icon: FileText,
       pages: [
