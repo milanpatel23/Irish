@@ -5,11 +5,19 @@ import { ArrowRight, Calendar, BookOpen, User } from 'lucide-react';
 import { mockData } from './mock';
 
 export const Blog = () => {
+  const navigate = useNavigate();
+  
   const scrollToSection = (href) => {
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const handleReadMore = (postId) => {
+    // For now, navigate to contact section since we don't have individual blog post pages
+    // You can create detailed blog pages later similar to services and case studies
+    scrollToSection('#contact');
   };
 
   const formatDate = (dateString) => {
