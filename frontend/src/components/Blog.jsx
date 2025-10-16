@@ -15,9 +15,7 @@ export const Blog = () => {
   };
 
   const handleReadMore = (postId) => {
-    // For now, navigate to contact section since we don't have individual blog post pages
-    // You can create detailed blog pages later similar to services and case studies
-    scrollToSection('#contact');
+    navigate(`/blog/${postId}`);
   };
 
   const formatDate = (dateString) => {
