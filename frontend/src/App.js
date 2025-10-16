@@ -46,6 +46,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/service/:serviceId" element={<ServiceDetail />} />
           <Route path="/case-study/:caseId" element={<CaseStudyDetail />} />
+          <Route path="/blog/:blogId" element={<BlogDetail />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/cookie-policy" element={<CookiePolicy />} />
