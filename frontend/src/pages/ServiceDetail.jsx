@@ -10,6 +10,11 @@ export const ServiceDetail = () => {
   const { serviceId } = useParams();
   const navigate = useNavigate();
   
+  // Scroll to top when component mounts
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   const service = mockData.services.find(s => s.id === parseInt(serviceId));
   
   if (!service) {
