@@ -116,7 +116,10 @@ export const Blog = () => {
                     </div>
                   </div>
                   
-                  <div className="flex items-center text-orange-600 font-medium group-hover:text-orange-700 transition-colors duration-300">
+                  <div 
+                    onClick={() => handleReadMore(post.id)}
+                    className="flex items-center text-orange-600 font-medium group-hover:text-orange-700 transition-colors duration-300 cursor-pointer"
+                  >
                     <span className="text-sm">Read More</span>
                     <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform duration-300" />
                   </div>
